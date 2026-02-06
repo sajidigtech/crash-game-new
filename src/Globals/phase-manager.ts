@@ -24,6 +24,7 @@ function setPhase(newPhase: GamePhase) {
 export function getPhase() {
     return phase;
 }
+// iska kahi b use nhi hai filhal ok 
 
 // 5 Subscribe to phase changes
 export function onPhaseChange(callback: (p: GamePhase) => void) {

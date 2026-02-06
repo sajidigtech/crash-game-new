@@ -1,5 +1,6 @@
 import { Application, Assets, path, Sprite } from "pixi.js";
 import "./main.css";
+import "./Globals/phase-manager"
 
 import crashScoket from "./web-socket/CrashSocket";
 
@@ -16,12 +17,18 @@ import crashScoket from "./web-socket/CrashSocket";
   document.getElementById("pixi-container")!.appendChild(app.canvas);
 
   
+crashScoket.onGraphTimer((data)=>{
 
+  console.log("data")
+
+})
  
 
-// onPhaseChange((data)=>{
+import eventEmitter from "./Globals/eventEmitter";
 
-//   console.log("phase change ka data : ", data)
+eventEmitter.on("phaseChange",(data)=>{
 
-// })
+  console.log("bhai data ye rha dekho ek baar ",  data)
+
+})
 
