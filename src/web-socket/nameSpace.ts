@@ -1,0 +1,1 @@
+export const CRASH_NAMESPACE = "/crash-game";
