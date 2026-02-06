@@ -23,7 +23,7 @@ export class Header extends Container {
 
             const value = data.data.crashRate;
 
-            console.log("bhai dekh data : ", data)
+            // console.log("bhai dekh data : ", data)
 
             this.addValue(value)
 
@@ -78,7 +78,7 @@ export class Header extends Container {
         if (this.children.length - 1 >= this.maxBoxes) {
 
             // wait 2 seconds
-            await new Promise((res) => setTimeout(res, 1000));
+            await new Promise((res) => setTimeout(res, 5000));
             while (this.children.length > 1) {
                 this.removeChildAt(1); // 0 = bg
             }
