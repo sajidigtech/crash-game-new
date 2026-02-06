@@ -1,0 +1,834 @@
+
+"socket data kuch esa rhega ! " after taking console i checked !!!
+
+
+
+
+
+/crash-game/graphTimer true 0 0
+/crash-game/graphTimer true 5 0
+/crash-game/graphTimer true 10 1
+/crash-game/graphTimer true 15 1
+/crash-game/graphTimer true 20 2
+/crash-game/graphTimer true 25 2
+/crash-game/graphTimer true 30 3
+/crash-game/graphTimer true 35 3
+/crash-game/graphTimer true 40 4
+/crash-game/graphTimer true 45 4
+/crash-game/graphTimer true 50 5
+/crash-game/graphTimer true 55 5
+/crash-game/graphTimer true 60 6
+/crash-game/graphTimer true 65 6
+/crash-game/graphTimer true 70 7
+/crash-game/graphTimer true 75 7
+/crash-game/graphTimer true 80 8
+/crash-game/graphTimer true 85 8
+/crash-game/graphTimer true 90 9
+/crash-game/graphTimer true 95 9
+/crash-game/graphTimer true 100 10
+/crash-game/graphTimer true 105 10
+/crash-game/graphTimer true 110 11
+/crash-game/graphTimer true 115 11
+/crash-game/graphTimer true 120 12
+/crash-game/graphTimer true 125 12
+/crash-game/graphTimer true 130 13
+/crash-game/graphTimer true 135 13
+/crash-game/graphTimer true 140 14
+/crash-game/graphTimer true 145 14
+/crash-game/graphTimer true 150 15
+/crash-game/graphTimer true 155 15
+/crash-game/graphTimer true 160 16
+/crash-game/graphTimer true 165 16
+/crash-game/graphTimer true 170 17
+/crash-game/graphTimer true 175 17
+/crash-game/graphTimer true 180 18
+/crash-game/graphTimer true 185 18
+/crash-game/graphTimer true 190 19
+/crash-game/graphTimer true 195 19
+/crash-game/graphTimer true 200 20
+/crash-game/graphTimer true 205 20
+^C
+developer@developer-ThinkBook-16-G7-ARP:~/Desktop/socketcheck$ node index.js
+connected 37XORK7XA85YCvk3AAGm
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 110,
+    seconds: 11,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9'
+  },
+  timestamp: '2026-02-06T07:32:42.359Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 115,
+    seconds: 11,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9'
+  },
+  timestamp: '2026-02-06T07:32:42.860Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 120,
+    seconds: 12,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9'
+  },
+  timestamp: '2026-02-06T07:32:43.361Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 125,
+    seconds: 12,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9'
+  },
+  timestamp: '2026-02-06T07:32:43.862Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 130,
+    seconds: 13,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9'
+  },
+  timestamp: '2026-02-06T07:32:44.363Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 135,
+    seconds: 13,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9'
+  },
+  timestamp: '2026-02-06T07:32:44.865Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 140,
+    seconds: 14,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9'
+  },
+  timestamp: '2026-02-06T07:32:45.367Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 145,
+    seconds: 14,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9'
+  },
+  timestamp: '2026-02-06T07:32:45.869Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 150,
+    seconds: 15,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9'
+  },
+  timestamp: '2026-02-06T07:32:46.372Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 155,
+    seconds: 15,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9'
+  },
+  timestamp: '2026-02-06T07:32:46.875Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 160,
+    seconds: 16,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9'
+  },
+  timestamp: '2026-02-06T07:32:47.376Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 165,
+    seconds: 16,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9'
+  },
+  timestamp: '2026-02-06T07:32:47.878Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: false,
+    secondTenths: 168,
+    seconds: 0,
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9'
+  },
+  timestamp: '2026-02-06T07:32:48.179Z'
+}
+------------
+📦 EVENT: /crash-game/roundStopped
+👉 DATA: {
+  success: true,
+  data: {
+    id: '9495',
+    roundId: '9e12ae02-baad-4a5f-9f0c-7266ff5541e9',
+    crashRate: 2.86,
+    roundState: '0',
+    roundHash: '9e49dba9862cb4dd1e1ebce1a8f1da8abb15b4e963cf7804716a6ad2b8d44ba8',
+    roundSignature: 'cde0f570146ada77c9161c439dc921fb',
+    currentGameSettings: '{"houseEdge":4,"minOdd":1,"maxOdd":20}',
+    onHoldAt: '2026-02-06T07:32:31.313Z',
+    createdAt: '2026-02-06T07:32:21.000Z',
+    updatedAt: '2026-02-06T07:32:57.159Z'
+  },
+  timestamp: '2026-02-06T07:32:57.160Z'
+}
+------------
+📦 EVENT: /crash-game/roundStarted
+👉 DATA: {
+  success: true,
+  data: {
+    id: '9496',
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f',
+    roundState: '1'
+  },
+  timestamp: '2026-02-06T07:32:59.174Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:32:59.174Z'
+}
+------------
+📦 EVENT: /crash-game/waitingTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 80,
+    seconds: 8,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:32:59.181Z'
+}
+------------
+📦 EVENT: /crash-game/waitingTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 70,
+    seconds: 7,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:00.182Z'
+}
+------------
+📦 EVENT: /crash-game/waitingTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 60,
+    seconds: 6,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:01.183Z'
+}
+------------
+📦 EVENT: /crash-game/waitingTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 50,
+    seconds: 5,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:02.185Z'
+}
+------------
+📦 EVENT: /crash-game/waitingTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 40,
+    seconds: 4,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:03.186Z'
+}
+------------
+📦 EVENT: /crash-game/waitingTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 30,
+    seconds: 3,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:04.186Z'
+}
+------------
+📦 EVENT: /crash-game/waitingTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 20,
+    seconds: 2,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:05.187Z'
+}
+------------
+📦 EVENT: /crash-game/waitingTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 10,
+    seconds: 1,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:06.189Z'
+}
+------------
+📦 EVENT: /crash-game/waitingTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 0,
+    seconds: 0,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:07.190Z'
+}
+------------
+📦 EVENT: /crash-game/waitingTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: false,
+    seconds: 0,
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:07.190Z'
+}
+------------
+📦 EVENT: /crash-game/roundBettingOnHold
+👉 DATA: {
+  success: true,
+  data: {
+    id: '9496',
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f',
+    roundState: '2',
+    onHoldAt: '2026-02-06T07:33:07.199Z',
+    updatedAt: '2026-02-06T07:33:07.200Z',
+    roundSignature: '85f6bef2f2bfb7c2f8a699662a1a0ae4'
+  },
+  timestamp: '2026-02-06T07:33:07.202Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.202Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.203Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.203Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.211Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.211Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 0,
+    seconds: 0,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:33:07.199Z',
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:07.215Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.218Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.218Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.224Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.224Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.231Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.231Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.237Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.237Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.243Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.244Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.250Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.250Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.257Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.258Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.264Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.264Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.271Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.271Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.277Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.277Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.284Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.284Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.291Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.291Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.297Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.297Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.304Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.304Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.310Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.311Z'
+}
+------------
+📦 EVENT: /crash-game/placedBets
+👉 DATA: {
+  success: true,
+  data: { bets: [], count: 0 },
+  timestamp: '2026-02-06T07:33:07.322Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 5,
+    seconds: 0,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:33:07.199Z',
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:07.716Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 10,
+    seconds: 1,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:33:07.199Z',
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:08.218Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 15,
+    seconds: 1,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:33:07.199Z',
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:08.721Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 20,
+    seconds: 2,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:33:07.199Z',
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:09.223Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: true,
+    secondTenths: 25,
+    seconds: 2,
+    minutes: 0,
+    hours: 0,
+    days: 0,
+    onHoldAt: '2026-02-06T07:33:07.199Z',
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:09.724Z'
+}
+------------
+📦 EVENT: /crash-game/graphTimer
+👉 DATA: {
+  success: true,
+  data: {
+    runningStatus: false,
+    secondTenths: 27,
+    seconds: 0,
+    onHoldAt: '2026-02-06T07:33:07.199Z',
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f'
+  },
+  timestamp: '2026-02-06T07:33:09.925Z'
+}
+------------
+📦 EVENT: /crash-game/roundStopped
+👉 DATA: {
+  success: true,
+  data: {
+    id: '9496',
+    roundId: 'c486936e-2532-4b75-9bbb-0361905fd96f',
+    crashRate: 1.18,
+    roundState: '0',
+    roundHash: '9384da51df4b377dae7c9f297a52e4ce69553f85b3b418665e18f35cbff0b092',
+    roundSignature: '63012a88c80dbfe9567773f52d5e6374',
+    currentGameSettings: '{"houseEdge":4,"minOdd":1,"maxOdd":20}',
+    onHoldAt: '2026-02-06T07:33:07.199Z',
+    createdAt: '2026-02-06T07:32:59.172Z',
+    updatedAt: '2026-02-06T07:33:12.683Z'
+  },
+  timestamp: '2026-02-06T07:33:12.684Z'
+}
+------------
+^C
+developer@developer-ThinkBook-16-G7-ARP:~/Desktop/socketcheck$ 
