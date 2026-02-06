@@ -1,71 +1,40 @@
-import { Application, Assets, path, Sprite ,Graphics} from "pixi.js";
+import { Application, Graphics } from "pixi.js";
 import "./main.css";
-import "./Globals/phase-manager"
-
+import "./Globals/phase-manager";
 import crashScoket from "./web-socket/CrashSocket";
 
+import { Header } from "./Game/header";
 
-  // Create a new application
+  const container = document.getElementById("pixi-container")!;
+  console.log("container found:", container);
+
   const app = new Application();
 
-  // Initialize the application
-  // await app.init({ background: "#1099bb", resizeTo: document.getElementById("pixi-container")! });
+  await app.init({
+    background: "#1099bb",
+    resizeTo: container,
+  });
 
-  await app.init({ background: "#1099bb", resizeTo: window });
-
-  // Append the application canvas to the document body
-  document.getElementById("pixi-container")!.appendChild(app.canvas);
+  container.appendChild(app.canvas);
 
   
+  const circle = new Graphics();
+  circle.circle(0, 0, 50);
+  circle.fill(0xffffff);
+  // circle.position.set(app.screen.width/2, app.screen.height/2);
+  circle.position.set(0, 0);
+  app.stage.addChild(circle);
 
- 
+  console.log("Pixi rendered ✅");
 
-import eventEmitter from "./Globals/eventEmitter";
+  crashScoket.onGraphTimer(() => {
+    console.log("graph chalu")
+  });
+  
 
-// eventEmitter.on("phaseChange",(data)=>{
+const header = new Header(app);
 
-//   if(data==="RUNNING"){
-//     alert("graph timer ")
-//   }
-
-//   // console.log("bhai data ye rha dekho ek baar ",  data)
-
-// })
-
-
-// ✅ 1. Create circle
-const circle = new Graphics();
-circle.circle(0, 0, 50);
-circle.fill(0xffffff);
-circle.x = window.innerWidth / 2;
-circle.y = window.innerHeight / 2;
-app.stage.addChild(circle);
+app.stage.addChild(header);
 
 
-
-crashScoket.onGraphTimer((data)=>{
-  console.log("graph chalu")
-})
-
-crashScoket.onRoundStarted(()=>{
-  console.log("round started")
-})
-
-crashScoket.onRoundStopped(()=>{
-  console.log("stopped")
-})
-
-crashScoket.onWaitingTimer(()=>{
-  console.log("waiting timer ")
-})
-
-
-crashScoket.onRoundBettingOnHold(()=>{
-  console.log("betitng hold");
-})
-
-
-
-
-
-
+  

@@ -3,11 +3,4 @@
 @tailwind utilities;
 
 
-body {
-  @apply m-0 bg-slate-500 flex items-center justify-center overflow-hidden
-}
 
-.canvas{
-    @apply relative w-[900px] h-[500px] bg-gray-700 rounded-xl shadow-2xl
-}
-/* abhi canvas class ko un used rkha hai  */
