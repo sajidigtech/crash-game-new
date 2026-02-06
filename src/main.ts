@@ -25,30 +25,3 @@ import crashScoket from "./web-socket/CrashSocket";
 
 // })
 
-import eventEmitter from "./Globals/eventEmitter";
-
-eventEmitter.on("sajid", ()=>{
-
-})
-
-eventEmitter.on("sajid", ()=>{
-  
-})
-eventEmitter.on("sajid", ()=>{
-  
-})
-eventEmitter.on("sajid", ()=>{
-  
-})
-eventEmitter.on("sajid", (data)=>{
-
-  console.log("data")
-  
-})
-
-
-eventEmitter.emit("sajid","yo");
-
-eventEmitter.showEventDetails();
-
-eventEmitter.showEventDetails();

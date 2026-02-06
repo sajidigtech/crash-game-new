@@ -4,7 +4,7 @@
 
 
 body {
-  @apply m-0 bg-slate-500 flex items-center justify-center
+  @apply m-0 bg-slate-500 flex items-center justify-center overflow-hidden
 }
 
 .canvas{

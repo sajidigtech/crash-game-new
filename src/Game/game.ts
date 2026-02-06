@@ -1,10 +1,17 @@
-import { Application } from "pixi.js";
+import { Application, Container ,Texture, Assets} from "pixi.js";
 
-class Game{
+export class Game extends Container{
 
 
-    constructor(){
-        
+
+    app!: Application
+
+    constructor(app:Application){
+        super();
+        this.app = app
+
     }
 
 }
+
+

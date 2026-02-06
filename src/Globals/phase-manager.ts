@@ -12,10 +12,6 @@ export type GamePhase = "WAITING" | "RUNNING" | "ENDED";
 let phase: GamePhase = "WAITING"; // default
 
 
-
-
-
-
 // 3️Function to update phase and notify all subscribers
 function setPhase(newPhase: GamePhase) {
     if (phase === newPhase) return; // avoid duplicate emit
