@@ -23,7 +23,7 @@ import { Header } from "./Game/header";
   circle.fill(0xffffff);
   // circle.position.set(app.screen.width/2, app.screen.height/2);
   circle.position.set(0, 0);
-  app.stage.addChild(circle);
+  // app.stage.addChild(circle);
 
   console.log("Pixi rendered ✅");
 
@@ -35,6 +35,13 @@ import { Header } from "./Game/header";
 const header = new Header(app);
 
 app.stage.addChild(header);
+
+
+import { Game } from "./Game/game";
+
+const game = new Game(app);
+
+app.stage.addChild(game)
 
 
   

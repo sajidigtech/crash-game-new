@@ -33,7 +33,7 @@ class CrashSocket {
     cashOut() {
         this.socket.emit("cash_out");
     }
-
+    // above two are not used till now 
 
     // ---------------EVENTS------------------
 

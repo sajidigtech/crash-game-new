@@ -34,7 +34,7 @@ export class Header extends Container {
 
     generateHeader() {
         this.bg = new Graphics();
-        this.bg.fill(0xF2B8A2)
+        this.bg.fill(0x1e293b)
         this.bg.rect(0, 0, this.app.screen.width, 40);
         this.bg.fill();
         this.addChild(this.bg)
